@@ -71,6 +71,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
               "version": "[1.1.6, )"
+            },
+            "SpaServices.SnowpackDevServer": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
