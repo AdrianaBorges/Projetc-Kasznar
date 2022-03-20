@@ -1,0 +1,5 @@
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Data\obj\Debug\net5.0\Kasznar.Data.csproj.AssemblyReference.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Data\obj\Debug\net5.0\Kasznar.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Data\obj\Debug\net5.0\Kasznar.Data.AssemblyInfoInputs.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Data\obj\Debug\net5.0\Kasznar.Data.AssemblyInfo.cs
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Data\obj\Debug\net5.0\Kasznar.Data.csproj.CoreCompileInputs.cache
