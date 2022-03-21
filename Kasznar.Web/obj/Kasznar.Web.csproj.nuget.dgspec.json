@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {
+                "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -244,6 +248,9 @@
             "projectReferences": {
               "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Application\\Kasznar.Application.csproj": {
                 "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Application\\Kasznar.Application.csproj"
+              },
+              "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj": {
+                "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj"
               }
             }
           }

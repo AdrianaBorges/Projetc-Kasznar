@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Kasznar.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Kasznar.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kasznar.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Kasznar.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Kasznar.Domain/Kasznar.Domain.csproj",
+      "msbuildProject": "../Kasznar.Domain/Kasznar.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Kasznar.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ADM\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {
+              "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

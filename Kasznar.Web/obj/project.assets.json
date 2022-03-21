@@ -2218,6 +2218,9 @@
       "Kasznar.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Kasznar.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Kasznar.Application.dll": {}
         },
@@ -2263,6 +2266,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Kasznar.Application": "1.0.0",
+          "Kasznar.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {

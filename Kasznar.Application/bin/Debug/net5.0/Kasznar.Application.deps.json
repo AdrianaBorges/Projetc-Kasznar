@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Kasznar.Application/1.0.0": {
+        "dependencies": {
+          "Kasznar.Domain": "1.0.0"
+        },
         "runtime": {
           "Kasznar.Application.dll": {}
+        }
+      },
+      "Kasznar.Domain/1.0.0": {
+        "runtime": {
+          "Kasznar.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Kasznar.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kasznar.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
