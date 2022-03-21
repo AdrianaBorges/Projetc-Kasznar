@@ -9,3 +9,7 @@ update-database
 add-migration "Fiel Email in User Table"
 
 add-migration "Inserting Default User"
+
+add-migration "Common Fields"
+
+add-migration "Updating Default Users"

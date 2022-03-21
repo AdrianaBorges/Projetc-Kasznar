@@ -4,14 +4,16 @@ using Kasznar.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Kasznar.Data.Migrations
 {
     [DbContext(typeof(KasznarContext))]
-    partial class KasznarContextModelSnapshot : ModelSnapshot
+    [Migration("20220321165028_Common Fields")]
+    partial class CommonFields
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,7 +52,7 @@ namespace Kasznar.Data.Migrations
                         new
                         {
                             Id = new Guid("c7dce21b-d207-4869-bf5f-08eb138bb919"),
-                            DateCreated = new DateTime(2020, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "userdefault@kasznar.com",
                             IsDeleted = false,
                             Name = "User Default"

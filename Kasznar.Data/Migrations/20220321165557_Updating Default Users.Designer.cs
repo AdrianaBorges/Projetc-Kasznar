@@ -4,14 +4,16 @@ using Kasznar.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Kasznar.Data.Migrations
 {
     [DbContext(typeof(KasznarContext))]
-    partial class KasznarContextModelSnapshot : ModelSnapshot
+    [Migration("20220321165557_Updating Default Users")]
+    partial class UpdatingDefaultUsers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

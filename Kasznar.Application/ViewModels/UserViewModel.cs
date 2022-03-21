@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Kasznar.Domain.Models;
 
-namespace Kasznar.Domain.Entities
+namespace Kasznar.Application.ViewModels
 {
-    public class User: Entity 
+    public class UserViewModel
     {
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
 

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Kasznar.Application.Interfaces;
+using Microsoft.AspNetCore.Mvc.ActionConstraints;
 
 namespace Kasznar.Web.Controllers
 {
@@ -17,6 +18,13 @@ namespace Kasznar.Web.Controllers
         public UsersController(IUserService userService)
         {
             this.userService = userService;
+        }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(this.userService.Get());
+
         }
     }
 }
