@@ -1,10 +1,11 @@
 ﻿using Kasznar.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal;
 
 namespace Kasznar.Data.Mappings
 {
-    public class UserMap: IEntityTypeConvention<User>
+    public class UserMap: IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {

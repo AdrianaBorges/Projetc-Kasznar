@@ -21,8 +21,6 @@ namespace Kasznar.Data.Context
             modelBuilder.ApplyConfiguration(new UserMap());
 
             base.OnModelCreating(modelBuilder);
-
-            base.OnModelCreating(modelBuilder);
         }
 
     }

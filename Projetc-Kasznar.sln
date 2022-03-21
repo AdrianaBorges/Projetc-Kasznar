@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-Cro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Data", "Kasznar.Data\Kasznar.Data.csproj", "{89109C85-2E14-420E-AC04-8FD40F3A2836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Web", "Kasznar.Web\Kasznar.Web.csproj", "{9518722B-065A-4A75-AD97-AAD8C73B748C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Web", "Kasznar.Web\Kasznar.Web.csproj", "{9518722B-065A-4A75-AD97-AAD8C73B748C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
