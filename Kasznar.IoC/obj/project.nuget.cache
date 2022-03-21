@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "107/F+15wyxgdO6iNpQb9NBdF6J5lz/Xjx1Y0C2o1kbgwi4wW26hzjiWPhdAqNFSmD1Gb1Eb1FUTPsW78uUAJw==",
+  "success": true,
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.IoC\\Kasznar.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -74,3 +74,7 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\ne
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Domain.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Humanizer.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Application.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.IoC.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.IoC.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Application.pdb

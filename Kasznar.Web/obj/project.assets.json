@@ -2215,6 +2215,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Kasznar.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Kasznar.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kasznar.Application.dll": {}
+        }
+      },
       "Kasznar.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2246,6 +2256,20 @@
         },
         "runtime": {
           "bin/placeholder/Kasznar.Domain.dll": {}
+        }
+      },
+      "Kasznar.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Kasznar.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Kasznar.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kasznar.IoC.dll": {}
         }
       }
     }
@@ -7652,6 +7676,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Kasznar.Application/1.0.0": {
+      "type": "project",
+      "path": "../Kasznar.Application/Kasznar.Application.csproj",
+      "msbuildProject": "../Kasznar.Application/Kasznar.Application.csproj"
+    },
     "Kasznar.Data/1.0.0": {
       "type": "project",
       "path": "../Kasznar.Data/Kasznar.Data.csproj",
@@ -7661,6 +7690,11 @@
       "type": "project",
       "path": "../Kasznar.Domain/Kasznar.Domain.csproj",
       "msbuildProject": "../Kasznar.Domain/Kasznar.Domain.csproj"
+    },
+    "Kasznar.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Kasznar.IoC/Kasznar.IoC.csproj",
+      "msbuildProject": "../Kasznar.IoC/Kasznar.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7668,6 +7702,7 @@
       "Angular.UI.Bootstrap >= 2.5.0",
       "AngularJS.Core >= 1.8.2",
       "Kasznar.Data >= 1.0.0",
+      "Kasznar.IoC >= 1.0.0",
       "Microsoft.AspNetCore.SpaServices >= 3.1.23",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.0",
@@ -7708,6 +7743,9 @@
           "projectReferences": {
             "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj": {
               "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj"
+            },
+            "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.IoC\\Kasznar.IoC.csproj": {
+              "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.IoC\\Kasznar.IoC.csproj"
             }
           }
         }

@@ -2,7 +2,6 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\Debug\net5.0\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\Debug\net5.0\ref\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\Debug\net5.0\Kasznar.Application.pdb
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.csproj.AssemblyReference.cache
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.AssemblyInfoInputs.cache
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\ref\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.csproj.AssemblyReference.cache

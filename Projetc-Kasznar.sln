@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Data", "Kasznar.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Web", "Kasznar.Web\Kasznar.Web.csproj", "{9518722B-065A-4A75-AD97-AAD8C73B748C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.IoC", "Kasznar.IoC\Kasznar.IoC.csproj", "{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9518722B-065A-4A75-AD97-AAD8C73B748C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9518722B-065A-4A75-AD97-AAD8C73B748C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9518722B-065A-4A75-AD97-AAD8C73B748C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{78D79D14-D22B-4A9E-96C3-B0658A39B23A} = {ACFDC0EE-7780-451C-9EA8-B0E2698B2322}
 		{89109C85-2E14-420E-AC04-8FD40F3A2836} = {82801020-7B0C-4FBA-BDDA-3AD54B791117}
 		{9518722B-065A-4A75-AD97-AAD8C73B748C} = {C30113C1-A1F5-4C74-B5E0-DA5CEF9A3BD4}
+		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF} = {78D79D14-D22B-4A9E-96C3-B0658A39B23A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120813B6-03B1-4D54-97FB-BD18A65271B8}

@@ -59,6 +59,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kasznar.Data\Kasznar.Data.csproj" />
+    <ProjectReference Include="..\Kasznar.IoC\Kasznar.IoC.csproj" />
   </ItemGroup>
 
   <ItemGroup>

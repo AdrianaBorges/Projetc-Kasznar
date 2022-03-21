@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Kasznar.Data.Context;
+using Kasznar.IoC;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kasznar.Web
@@ -26,6 +27,7 @@ namespace Kasznar.Web
             services.AddDbContext<KasznarContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("KasznarDB")).EnableSensitiveDataLogging());
 
+            NativeInjector.RegisterServices(services);
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

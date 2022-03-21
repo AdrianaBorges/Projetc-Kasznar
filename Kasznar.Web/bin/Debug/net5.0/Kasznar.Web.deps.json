@@ -36,6 +36,7 @@
           "Angular.UI.Bootstrap": "2.5.0",
           "AngularJS.Core": "1.8.2",
           "Kasznar.Data": "1.0.0",
+          "Kasznar.IoC": "1.0.0",
           "Microsoft.AspNetCore.SpaServices": "3.1.23",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0",
@@ -1675,6 +1676,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Kasznar.Application/1.0.0": {
+        "runtime": {
+          "Kasznar.Application.dll": {}
+        },
+        "compile": {
+          "Kasznar.Application.dll": {}
+        }
+      },
       "Kasznar.Data/1.0.0": {
         "dependencies": {
           "Kasznar.Domain": "1.0.0",
@@ -1702,6 +1711,18 @@
         },
         "compile": {
           "Kasznar.Domain.dll": {}
+        }
+      },
+      "Kasznar.IoC/1.0.0": {
+        "dependencies": {
+          "Kasznar.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "Kasznar.IoC.dll": {}
+        },
+        "compile": {
+          "Kasznar.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4467,12 +4488,22 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "Kasznar.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Kasznar.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Kasznar.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kasznar.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
