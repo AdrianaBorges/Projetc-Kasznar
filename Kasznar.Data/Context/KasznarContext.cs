@@ -20,7 +20,11 @@ namespace Kasznar.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserMap());
+
+            modelBuilder.ApplyGlobalConfigurations();
+
             modelBuilder.SeedData();
+
             base.OnModelCreating(modelBuilder);
         }
 

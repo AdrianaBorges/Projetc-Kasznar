@@ -7,7 +7,7 @@ using Kasznar.Domain.Entities;
 
 namespace Kasznar.Domain.Interfaces
 {
-    public interface IUserRepository
+    public interface IUserRepository: IRepository<User>
     {
         IEnumerable<User> GetAll();
     }
