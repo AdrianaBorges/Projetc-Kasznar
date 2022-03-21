@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Kasznar.Data.Context;
 using Kasznar.IoC;
 using Microsoft.EntityFrameworkCore;
+using Kasznar.Swagger;
 
 namespace Kasznar.Web
 {
@@ -32,6 +33,9 @@ namespace Kasznar.Web
 
             services.AddAutoMapper(typeof(AutoMapperSetup));
 
+            services.AddSwaggerConfigurarion();
+
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -52,6 +56,8 @@ namespace Kasznar.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSwaggerConfiguration();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

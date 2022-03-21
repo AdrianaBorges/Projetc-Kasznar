@@ -1,0 +1,11 @@
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\bin\Debug\net5.0\Kasznar.Swagger.deps.json
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\bin\Debug\net5.0\Kasznar.Swagger.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\bin\Debug\net5.0\ref\Kasznar.Swagger.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\bin\Debug\net5.0\Kasznar.Swagger.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.AssemblyInfoInputs.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.AssemblyInfo.cs
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.csproj.CoreCompileInputs.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\ref\Kasznar.Swagger.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Swagger\obj\Debug\net5.0\Kasznar.Swagger.pdb

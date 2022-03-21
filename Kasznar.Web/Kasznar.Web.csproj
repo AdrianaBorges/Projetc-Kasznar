@@ -62,6 +62,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kasznar.Data\Kasznar.Data.csproj" />
     <ProjectReference Include="..\Kasznar.IoC\Kasznar.IoC.csproj" />
+    <ProjectReference Include="..\Kasznar.Swagger\Kasznar.Swagger.csproj" />
   </ItemGroup>
 
   <ItemGroup>
