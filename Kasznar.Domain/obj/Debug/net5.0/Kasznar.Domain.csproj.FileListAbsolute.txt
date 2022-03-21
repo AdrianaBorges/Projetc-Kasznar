@@ -1,12 +1,11 @@
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.deps.json
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.dll
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\ref\Kasznar.Domain.dll
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.AssemblyInfoInputs.cache
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.AssemblyInfo.cs
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.csproj.CoreCompileInputs.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.deps.json
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\ref\Kasznar.Domain.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug\net5.0\Kasznar.Domain.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\ref\Kasznar.Domain.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.pdb
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.csproj.AssemblyReference.cache

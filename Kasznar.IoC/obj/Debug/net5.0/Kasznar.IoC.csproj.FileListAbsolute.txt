@@ -8,7 +8,11 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\ne
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\ref\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.IoC.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Application.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Data.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Domain.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Application.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Data.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Domain.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.CopyComplete
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\ref\Kasznar.IoC.dll

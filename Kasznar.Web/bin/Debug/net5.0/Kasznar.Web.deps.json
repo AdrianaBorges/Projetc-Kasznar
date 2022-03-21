@@ -1677,6 +1677,9 @@
         }
       },
       "Kasznar.Application/1.0.0": {
+        "dependencies": {
+          "Kasznar.Domain": "1.0.0"
+        },
         "runtime": {
           "Kasznar.Application.dll": {}
         },
@@ -1716,6 +1719,7 @@
       "Kasznar.IoC/1.0.0": {
         "dependencies": {
           "Kasznar.Application": "1.0.0",
+          "Kasznar.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {

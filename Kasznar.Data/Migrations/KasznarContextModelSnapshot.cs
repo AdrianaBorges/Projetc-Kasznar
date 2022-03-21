@@ -26,7 +26,9 @@ namespace Kasznar.Data.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DateCreated")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 3, 21, 17, 54, 41, 422, DateTimeKind.Local).AddTicks(4199));
 
                     b.Property<DateTime?>("DateUpdated")
                         .HasColumnType("datetime2");
@@ -35,7 +37,9 @@ namespace Kasznar.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("Name")
                         .IsRequired()
