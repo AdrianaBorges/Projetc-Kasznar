@@ -1,0 +1,11 @@
+
+
+Comandos migration
+
+add-migration "User Table"
+
+update-database
+
+add-migration "Fiel Email in User Table"
+
+add-migration "Inserting Default User"

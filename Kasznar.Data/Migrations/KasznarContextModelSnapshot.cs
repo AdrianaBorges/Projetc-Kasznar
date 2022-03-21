@@ -25,6 +25,9 @@ namespace Kasznar.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -33,6 +36,14 @@ namespace Kasznar.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c7dce21b-d207-4869-bf5f-08eb138bb919"),
+                            Email = "userdefault@kasznar.com",
+                            Name = "User Default"
+                        });
                 });
 #pragma warning restore 612, 618
         }

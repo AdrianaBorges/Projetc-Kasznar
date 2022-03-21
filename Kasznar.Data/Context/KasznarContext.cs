@@ -1,4 +1,5 @@
-﻿using Kasznar.Data.Mappings;
+﻿using Kasznar.Data.Extensions;
+using Kasznar.Data.Mappings;
 using Kasznar.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,7 @@ namespace Kasznar.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserMap());
-
+            modelBuilder.SeedData();
             base.OnModelCreating(modelBuilder);
         }
 
