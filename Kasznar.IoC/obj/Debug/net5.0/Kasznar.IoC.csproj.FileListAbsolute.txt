@@ -1,8 +1,3 @@
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.AssemblyReference.cache
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.AssemblyInfoInputs.cache
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.AssemblyInfo.cs
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.CoreCompileInputs.cache
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.IoC.deps.json
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\ref\Kasznar.IoC.dll
@@ -13,6 +8,11 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\ne
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Application.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Data.pdb
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Domain.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.AssemblyReference.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.AssemblyInfoInputs.cache
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.AssemblyInfo.cs
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.CoreCompileInputs.cache
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.csproj.CopyComplete
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\ref\Kasznar.IoC.dll
