@@ -23,15 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Data", "Kasznar.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Web", "Kasznar.Web\Kasznar.Web.csproj", "{9518722B-065A-4A75-AD97-AAD8C73B748C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.IoC", "Kasznar.IoC\Kasznar.IoC.csproj", "{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.IoC", "Kasznar.IoC\Kasznar.IoC.csproj", "{804EC8D9-0E33-45B8-B65A-50ADFF4704CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Swagger", "Kasznar.Swagger\Kasznar.Swagger.csproj", "{CD3537FB-D898-46B9-B062-50F00D8F2DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Swagger", "Kasznar.Swagger\Kasznar.Swagger.csproj", "{CD3537FB-D898-46B9-B062-50F00D8F2DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Auth", "Kasznar.Auth\Kasznar.Auth.csproj", "{5605216F-083C-4517-9556-5A836FD8465C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Auth", "Kasznar.Auth\Kasznar.Auth.csproj", "{5605216F-083C-4517-9556-5A836FD8465C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{2E9760B9-1F27-4120-8A32-023C60D44858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Application.Tests", "Kasznar.Application.Tests\Kasznar.Application.Tests.csproj", "{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kasznar.Application.Tests", "Kasznar.Application.Tests\Kasznar.Application.Tests.csproj", "{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
