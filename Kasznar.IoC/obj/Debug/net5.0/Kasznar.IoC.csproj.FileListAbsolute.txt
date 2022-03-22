@@ -17,3 +17,5 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\ne
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\ref\Kasznar.IoC.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\obj\Debug\net5.0\Kasznar.IoC.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Auth.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.IoC\bin\Debug\net5.0\Kasznar.Auth.pdb

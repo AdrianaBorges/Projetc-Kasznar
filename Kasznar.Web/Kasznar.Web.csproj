@@ -42,6 +42,7 @@
     <PackageReference Include="AngularJS.Core" Version="1.8.2" />
     <PackageReference Include="AutoMapper" Version="11.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.23" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.0" />
@@ -60,6 +61,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kasznar.Auth\Kasznar.Auth.csproj" />
     <ProjectReference Include="..\Kasznar.Data\Kasznar.Data.csproj" />
     <ProjectReference Include="..\Kasznar.IoC\Kasznar.IoC.csproj" />
     <ProjectReference Include="..\Kasznar.Swagger\Kasznar.Swagger.csproj" />

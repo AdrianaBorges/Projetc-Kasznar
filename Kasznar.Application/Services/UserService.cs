@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
 using Kasznar.Application.Interfaces;
 using Kasznar.Application.ViewModels;
+using Kasznar.Auth.Services;
 using Kasznar.Domain.Entities;
 using Kasznar.Domain.Interfaces;
 
@@ -67,5 +68,28 @@ namespace Kasznar.Application.Services
             return true;
         }
 
+        public bool Delete(string id)
+        {
+            if (!Guid.TryParse(id, out Guid userId))
+                throw new Exception("UserID is not valid");
+
+            User _user = this.userRepository.Find(x => x.Id == userId && !x.IsDeleted);
+            if (_user == null)
+                throw new Exception("User not found");
+
+            this.userRepository.Delete(_user);
+
+            return this.userRepository.Delete(_user);
+        }
+
+        public UserAuthenticateResponseViewModel Authenticate(UserAuthenticateRequestViewModel user)
+        {
+            User _user = this.userRepository.Find(x => @x.IsDeleted && x.Email.ToLower() == user.Email.ToLower());
+            if (_user == null)
+                throw new Exception("User not found");
+
+            return new UserAuthenticateResponseViewModel(mapper.Map<UserViewModel>(_user),
+                TokenService.GenerateToken(_user));
+        }
     }
 }

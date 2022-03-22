@@ -1,3 +1,4 @@
+using System.Text;
 using Kasznar.Application.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,6 +10,9 @@ using Kasznar.Data.Context;
 using Kasznar.IoC;
 using Microsoft.EntityFrameworkCore;
 using Kasznar.Swagger;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Kasznar.Auth.Models;
 
 namespace Kasznar.Web
 {
@@ -34,6 +38,24 @@ namespace Kasznar.Web
             services.AddAutoMapper(typeof(AutoMapperSetup));
 
             services.AddSwaggerConfigurarion();
+
+            var key = Encoding.ASCII.GetBytes(Settings.Secret);
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
 
 
             // In production, the Angular files will be served from this directory
@@ -67,6 +89,10 @@ namespace Kasznar.Web
             }
 
             app.UseRouting();
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

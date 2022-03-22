@@ -90,3 +90,6 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\ne
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Swagger.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Swagger.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Auth.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Web\bin\Debug\net5.0\Kasznar.Auth.pdb

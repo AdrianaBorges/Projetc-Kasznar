@@ -13,3 +13,5 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\ref\Kasznar.Application.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\obj\Debug\net5.0\Kasznar.Application.pdb
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\Debug\net5.0\Kasznar.Auth.dll
+C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Application\bin\Debug\net5.0\Kasznar.Auth.pdb

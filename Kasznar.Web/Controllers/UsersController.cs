@@ -44,5 +44,18 @@ namespace Kasznar.Web.Controllers
         {
             return Ok(this.userService.Put(userViewModel));
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(string id)
+        {
+            return Ok(this.userService.Delete(id));
+        }
+
+        [HttpPost("{authenticate}")]
+        public IActionResult Authenticate(UserAuthenticateRequestViewModel userViewModel)
+        {
+            return Ok(this.userService.Authenticate(userViewModel));
+        }
+
     }
 }
