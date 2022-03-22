@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Kasznar.Domain\Kasznar.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

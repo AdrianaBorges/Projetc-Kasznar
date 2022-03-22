@@ -8,6 +8,8 @@ namespace Kasznar.Domain.Models
         public DateTime DateCreated { get; set; }
         public DateTime? DateUpdated { get; set; }
         public bool IsDeleted { get; set; }
+        public bool Status { get; set; }
+
 
     }
 }

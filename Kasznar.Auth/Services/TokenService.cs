@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Microsoft.IdentityModel.Tokens;
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Text;
 using Kasznar.Auth.Models;
 using Kasznar.Domain.Entities;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Kasznar.Auth.Services
 {
@@ -37,5 +36,6 @@ namespace Kasznar.Auth.Services
 
             return claims.FindFirst(field).Value;
         }
+
     }
 }
