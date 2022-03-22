@@ -1,17 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Security.Claims;
 using Kasznar.Application.Interfaces;
 using Kasznar.Application.ViewModels;
-using Microsoft.AspNetCore.Mvc.ActionConstraints;
+using Kasznar.Auth.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Kasznar.Web.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUserService userService;
@@ -27,7 +25,7 @@ namespace Kasznar.Web.Controllers
             return Ok(this.userService.Get());
         }
         
-        [HttpPost]
+        [HttpPost, AllowAnonymous]
         public IActionResult Post(UserViewModel userViewModel)
         {
             return Ok(this.userService.Post(userViewModel));
@@ -45,13 +43,15 @@ namespace Kasznar.Web.Controllers
             return Ok(this.userService.Put(userViewModel));
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(string id)
+        [HttpDelete]
+        public IActionResult Delete()
         {
-            return Ok(this.userService.Delete(id));
+            string _userId = TokenService.GetValueFromClaim(HttpContext.User.Identity, ClaimTypes.NameIdentifier);
+
+            return Ok(this.userService.Delete(_userId));
         }
 
-        [HttpPost("{authenticate}")]
+        [HttpPost("authenticate"), AllowAnonymous]
         public IActionResult Authenticate(UserAuthenticateRequestViewModel userViewModel)
         {
             return Ok(this.userService.Authenticate(userViewModel));

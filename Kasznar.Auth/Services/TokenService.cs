@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
+using System.Security.Principal;
 using System.Text;
-using System.Threading.Tasks;
 using Kasznar.Auth.Models;
 using Kasznar.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Kasznar.Auth.Services
@@ -30,6 +29,13 @@ namespace Kasznar.Auth.Services
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        public static string GetValueFromClaim(IIdentity identity, string field)
+        {
+            var claims = identity as ClaimsIdentity;
+
+            return claims.FindFirst(field).Value;
         }
     }
 }

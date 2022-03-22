@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Swagger", "Kasznar.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Auth", "Kasznar.Auth\Kasznar.Auth.csproj", "{5605216F-083C-4517-9556-5A836FD8465C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{2E9760B9-1F27-4120-8A32-023C60D44858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kasznar.Application.Tests", "Kasznar.Application.Tests\Kasznar.Application.Tests.csproj", "{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,10 @@ Global
 		{5605216F-083C-4517-9556-5A836FD8465C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5605216F-083C-4517-9556-5A836FD8465C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5605216F-083C-4517-9556-5A836FD8465C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +85,7 @@ Global
 		{804EC8D9-0E33-45B8-B65A-50ADFF4704CF} = {78D79D14-D22B-4A9E-96C3-B0658A39B23A}
 		{CD3537FB-D898-46B9-B062-50F00D8F2DC7} = {78D79D14-D22B-4A9E-96C3-B0658A39B23A}
 		{5605216F-083C-4517-9556-5A836FD8465C} = {78D79D14-D22B-4A9E-96C3-B0658A39B23A}
+		{0B1D0B15-8CB9-484F-BA4B-F8BC464F57EF} = {2E9760B9-1F27-4120-8A32-023C60D44858}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120813B6-03B1-4D54-97FB-BD18A65271B8}

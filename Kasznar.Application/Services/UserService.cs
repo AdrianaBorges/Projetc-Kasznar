@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
 using Kasznar.Application.Interfaces;
 using Kasznar.Application.ViewModels;
@@ -15,7 +14,7 @@ namespace Kasznar.Application.Services
         private readonly IUserRepository userRepository;
         private readonly IMapper mapper;
         
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IMapper mapper)
         {
             this.userRepository = userRepository;
             this.mapper = mapper;
@@ -29,13 +28,13 @@ namespace Kasznar.Application.Services
 
             _userViewModels = mapper.Map<List<UserViewModel>>(_users);
 
-            //foreach (var item in _users)
-            //    _userViewModels.Add(new UserViewModel() { Id = item.Id, Email = item.Email, Name = item.Name });
-            
             return _userViewModels;
         }
         public bool Post(UserViewModel userViewModel)
         {
+            if (userViewModel.Id != Guid.Empty)
+                throw new Exception("UserID must be empty");
+
             User _user = mapper.Map<User>(userViewModel);
 
             this.userRepository.Create(_user);
