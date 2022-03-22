@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Kasznar.Domain.Models;
+﻿using Kasznar.Domain.Models;
 
 namespace Kasznar.Domain.Entities
 {
@@ -11,6 +6,8 @@ namespace Kasznar.Domain.Entities
     {
         public string Name { get; set; }
         public string Email { get; set; }
+        public string Password { get; set; }
+        public string Cpf { get; set; }
 
     }
 }

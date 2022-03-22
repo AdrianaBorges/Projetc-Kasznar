@@ -1,7 +1,6 @@
 ﻿using Kasznar.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal;
 
 namespace Kasznar.Data.Mappings
 {
@@ -10,7 +9,12 @@ namespace Kasznar.Data.Mappings
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.Property(x => x.Id).IsRequired();
+
             builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
+
+            builder.Property(x => x.Password).IsRequired().HasDefaultValue("TestandoCampo");
+
+            builder.Property(x => x.Cpf).HasMaxLength(15).IsRequired().HasDefaultValue("02547718740");
 
         }
     }

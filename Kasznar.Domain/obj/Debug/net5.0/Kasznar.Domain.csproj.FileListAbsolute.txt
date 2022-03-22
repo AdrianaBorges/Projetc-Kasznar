@@ -9,4 +9,3 @@ C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\bin\Debug
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\ref\Kasznar.Domain.dll
 C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.pdb
-C:\Adriana.Borges\PROJETOS-FREE\Kasznar\Projetc-Kasznar\Kasznar.Domain\obj\Debug\net5.0\Kasznar.Domain.csproj.AssemblyReference.cache

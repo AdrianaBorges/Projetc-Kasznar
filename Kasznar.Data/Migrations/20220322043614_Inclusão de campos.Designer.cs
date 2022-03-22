@@ -4,14 +4,16 @@ using Kasznar.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Kasznar.Data.Migrations
 {
     [DbContext(typeof(KasznarContext))]
-    partial class KasznarContextModelSnapshot : ModelSnapshot
+    [Migration("20220322043614_Inclusão de campos")]
+    partial class Inclusãodecampos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,7 +37,7 @@ namespace Kasznar.Data.Migrations
                     b.Property<DateTime>("DateCreated")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 3, 22, 1, 52, 18, 425, DateTimeKind.Local).AddTicks(5869));
+                        .HasDefaultValue(new DateTime(2022, 3, 22, 1, 36, 13, 921, DateTimeKind.Local).AddTicks(6696));
 
                     b.Property<DateTime?>("DateUpdated")
                         .HasColumnType("datetime2");
@@ -59,6 +61,11 @@ namespace Kasznar.Data.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasDefaultValue("TestandoCampo");
 
+                    b.Property<bool>("Status")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
                     b.HasKey("Id");
 
                     b.ToTable("Users");
@@ -70,7 +77,8 @@ namespace Kasznar.Data.Migrations
                             DateCreated = new DateTime(2020, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "userdefault@kasznar.com",
                             IsDeleted = false,
-                            Name = "User Default"
+                            Name = "User Default",
+                            Status = false
                         });
                 });
 #pragma warning restore 612, 618
