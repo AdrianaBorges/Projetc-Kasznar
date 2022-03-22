@@ -14,8 +14,6 @@ namespace Kasznar.Data.Mappings
 
             builder.Property(x => x.Password).IsRequired().HasDefaultValue("TestandoCampo");
 
-            builder.Property(x => x.Cpf).HasMaxLength(15).IsRequired().HasDefaultValue("02547718740");
-
         }
     }
 }

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Kasznar.Data.Context;
 using Kasznar.Domain.Entities;
 using Kasznar.Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace Kasznar.Data.Repositories
 {
@@ -19,9 +14,6 @@ namespace Kasznar.Data.Repositories
         {
             return Query(x => !x.IsDeleted);
         }
-
-
-
 
     }
 }

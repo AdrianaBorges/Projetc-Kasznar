@@ -1,5 +1,3 @@
-using System.Text;
-using Kasznar.Application.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
@@ -7,14 +5,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Kasznar.Data.Context;
-using Kasznar.IoC;
 using Microsoft.EntityFrameworkCore;
+using Kasznar.IoC;
+using Kasznar.Application.AutoMapper;
 using Kasznar.Swagger;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
 using Kasznar.Auth.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
-namespace Kasznar.Web
+namespace Kasznar
 {
     public class Startup
     {
@@ -30,14 +30,11 @@ namespace Kasznar.Web
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<KasznarContext>(opt =>
-                opt.UseSqlServer(Configuration.GetConnectionString("KasznarDB")).EnableSensitiveDataLogging());
-
+            services.AddDbContext<KasznarContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("KasznarDB")).EnableSensitiveDataLogging());
             NativeInjector.RegisterServices(services);
 
             services.AddAutoMapper(typeof(AutoMapperSetup));
-
-            services.AddSwaggerConfigurarion();
+            services.AddSwaggerConfiguration();
 
             var key = Encoding.ASCII.GetBytes(Settings.Secret);
             services.AddAuthentication(x =>
@@ -91,7 +88,6 @@ namespace Kasznar.Web
             app.UseRouting();
 
             app.UseAuthentication();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

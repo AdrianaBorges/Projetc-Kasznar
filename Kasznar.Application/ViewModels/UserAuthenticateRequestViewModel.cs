@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Kasznar.Application.ViewModels
+﻿namespace Kasznar.Application.ViewModels
 {
     public class UserAuthenticateRequestViewModel
     {

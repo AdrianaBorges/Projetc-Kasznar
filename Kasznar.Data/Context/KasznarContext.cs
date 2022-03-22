@@ -1,13 +1,12 @@
-﻿using Kasznar.Data.Extensions;
+﻿using Microsoft.EntityFrameworkCore;
+using Kasznar.Data.Extensions;
 using Kasznar.Data.Mappings;
 using Kasznar.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace Kasznar.Data.Context
 {
-    public class KasznarContext: DbContext
+    public class KasznarContext : DbContext
     {
-        //Construtor da classe
         public KasznarContext(DbContextOptions<KasznarContext> option)
             : base(option) { }
 
@@ -22,11 +21,9 @@ namespace Kasznar.Data.Context
             modelBuilder.ApplyConfiguration(new UserMap());
 
             modelBuilder.ApplyGlobalConfigurations();
-
             modelBuilder.SeedData();
 
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }
