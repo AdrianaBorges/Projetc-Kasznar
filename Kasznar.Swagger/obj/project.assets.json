@@ -153,11 +153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Swagger\\Kasznar.Swagger.csproj",
+      "projectUniqueName": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Swagger\\Kasznar.Swagger.csproj",
       "projectName": "Kasznar.Swagger",
-      "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Swagger\\Kasznar.Swagger.csproj",
+      "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Swagger\\Kasznar.Swagger.csproj",
       "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-      "outputPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Swagger\\obj\\",
+      "outputPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Swagger\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",

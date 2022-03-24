@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eKWVVKCdmhCoA05SYhtaNhFNstL1d1oC8n+6vz/kmZMgubn/rsirpIfTDRF+6f4ZfQE90qyIXOdjuHjHT/N9qw==",
+  "dgSpecHash": "2nudtBAJwgopAr01U70FD46O1902TpxJ5CcPvrZNqg01tgEeLCiJPOdBzpPfKYtsEmvo2PNHE942O9WSWIL27g==",
   "success": true,
-  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Auth\\Kasznar.Auth.csproj",
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Auth\\Kasznar.Auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADM\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ADM\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

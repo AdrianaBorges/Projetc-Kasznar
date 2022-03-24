@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {}
+    "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {
+    "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj",
+        "projectUniqueName": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj",
         "projectName": "Kasznar.Domain",
-        "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj",
+        "projectPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Domain\\Kasznar.Domain.csproj",
         "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-        "outputPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Domain\\obj\\",
+        "outputPath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",

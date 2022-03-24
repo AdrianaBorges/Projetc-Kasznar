@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SCDDJwrVnx4Ed3Gh/LNOus/AiFbQuhM2s0g1n45DpE657qEqMayQPWjzpnEFPWrB8hwPMBKHTwiYl4qPqbCxfg==",
+  "dgSpecHash": "1wsB4wWIsA6G4kkOy4ATPqsPdS9coqJbqWW4K1hLeqtn0R5UOU9Yl6ol5jf/QuJzphtbGQevnJgyq5HMemrYkA==",
   "success": true,
-  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj",
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Data\\Kasznar.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADM\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\ADM\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

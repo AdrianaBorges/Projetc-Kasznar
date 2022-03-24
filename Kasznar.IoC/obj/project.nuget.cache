@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WcWPPAYHaoIpCDQUOTBJ0hU4O6R4dwlY7l23baTBk7TbWRLGn2wcB1zezF2OyLefbecXA7p6ixpTdJvsxOt/w==",
+  "dgSpecHash": "iE1CvMPsnrU3NS8YHzsvx5X95NhVdLVAg27T299zp4vb3ImNpQbUdCx3hPSAA9aMNQrWJjfy/0UQGJIGdGkFsA==",
   "success": true,
-  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.IoC\\Kasznar.IoC.csproj",
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.IoC\\Kasznar.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADM\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ADM\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

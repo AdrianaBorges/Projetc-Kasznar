@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "diGaIhjTTZI6K89nkqckjI4bzihrBc8X5FDJWygTlFcZvzj2Rlz9StaSEtzzf4QHszbGQFRyK8ddDM2xX4orxw==",
+  "dgSpecHash": "dPTwHaP4xZukV9N8F4HwApKk2gMnjhaZY/xXGnShguQj9pfGkzmHXjqCFj96bWtt4FmXY+sF101T48JGKXQsog==",
   "success": true,
-  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Application.Tests\\Kasznar.Application.Tests.csproj",
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Application.Tests\\Kasznar.Application.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADM\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ADM\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

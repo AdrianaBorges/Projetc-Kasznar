@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0T1ysrLtFrCoh1W7CjqEucDKztInvj4tumrI3RCc+KIXxQE32FCektdQCC6VstyoS853x0rYhyasik+v7C90Q==",
+  "dgSpecHash": "kKW7yUEjMdKjkmj+bVVwySDN2Ta2bjN6ylTz+JlwC4B2UGgdiBiCoUVbLsuz47vTdgUZI2Q3Q1tBDPG0UYOP3A==",
   "success": true,
-  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Kasznar\\Projetc-Kasznar\\Kasznar.Web\\Kasznar.Web.csproj",
+  "projectFilePath": "C:\\Adriana.Borges\\PROJETOS-FREE\\Projetc-Kasznar\\Kasznar.Web\\Kasznar.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADM\\.nuget\\packages\\angular.ui.bootstrap\\2.5.0\\angular.ui.bootstrap.2.5.0.nupkg.sha512",
     "C:\\Users\\ADM\\.nuget\\packages\\angularjs.core\\1.8.2\\angularjs.core.1.8.2.nupkg.sha512",
